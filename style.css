@@ -1,0 +1,22 @@
+body {
+  padding: 20px;
+}
+.canvasContainer {
+  position: relative;
+  width: fit-content;
+  > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.3rem;
+  }
+  > .error {
+    color: red;
+  }
+}
+
+.canvas {
+  width: clamp(350px, 100%, 800px);
+  height: clamp(175px, 50%, 400px);
+}

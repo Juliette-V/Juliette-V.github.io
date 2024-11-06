@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "typeRoots": ["../node_modules/@types"],
+    "lib": ["ES6", "dom", "ES2019"],
+    "outDir": "./dist",
+    "esModuleInterop": true
+  }
+}
